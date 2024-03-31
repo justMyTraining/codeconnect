@@ -6,12 +6,15 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
-    "preview": "vite preview"
+    "build-only": "vite build",
+    "type-check": "vue-tsc --buil --force",
+    "preview": "vite preview --port 8080"
   },
   "dependencies": {
     "primeicons": "^7.0.0",
     "primevue": "^3.50.0",
-    "vue": "^3.4.21"
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0"
   },
   "devDependencies": {
     "@types/node": "^20.12.2",
