@@ -1,10 +1,9 @@
-<script setup lang="ts">
-import Button from "primevue/button"
+<script setup lang="ts">;
+import TheSideBar from "./components/TheSideBar.vue";
 </script>
 
 <template>
-  <p>Hello world!</p>
-  <Button label="Submit" icon="pi pi-check" />
+  <TheSideBar/>
 </template>
 
 <style scoped>
